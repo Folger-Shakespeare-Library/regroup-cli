@@ -1,6 +1,6 @@
-# regroup
+# regroup-cli
 
-CLI client for the Regroup Mass Notification API.
+CLI client for the [Regroup](https://www.regroup.com/) Mass Notification API.
 
 ## Install
 
