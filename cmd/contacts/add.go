@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"regroup/internal/api"
-	"regroup/internal/cfg"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/internal/api"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/internal/cfg"
 )
 
 var (

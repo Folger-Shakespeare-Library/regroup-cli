@@ -1,4 +1,4 @@
-module regroup
+module github.com/Folger-Shakespeare-Library/regroup-cli
 
 go 1.25.0
 

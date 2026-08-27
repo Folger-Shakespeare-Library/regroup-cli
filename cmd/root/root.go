@@ -2,10 +2,10 @@ package root
 
 import (
 	"github.com/spf13/cobra"
-	"regroup/cmd/channels"
-	"regroup/cmd/config"
-	"regroup/cmd/contacts"
-	"regroup/cmd/groups"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/cmd/channels"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/cmd/config"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/cmd/contacts"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/cmd/groups"
 )
 
 var Cmd = &cobra.Command{

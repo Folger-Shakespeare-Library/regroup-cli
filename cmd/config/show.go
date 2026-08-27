@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"regroup/internal/cfg"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/internal/cfg"
 )
 
 var showCmd = &cobra.Command{

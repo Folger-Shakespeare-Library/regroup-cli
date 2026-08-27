@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"regroup/internal/cfg"
+	"github.com/Folger-Shakespeare-Library/regroup-cli/internal/cfg"
 )
 
 var pathCmd = &cobra.Command{
