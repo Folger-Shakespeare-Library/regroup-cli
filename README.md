@@ -53,3 +53,7 @@ regroup contacts add --email user@example.com --group technology --group staff
 regroup contacts add --email user@example.com --group technology,staff
 ```
 
+## Scope
+
+This CLI covers contacts, groups, and channels. The Regroup API also supports messages, events, and other endpoints not yet implemented here.
+
