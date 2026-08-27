@@ -37,7 +37,7 @@ regroup config path
 Default output is JSON. Use `--output table` for tabular output. Pipe to `jq` for filtering:
 
 ```
-regroup contacts list | jq '.[] | select(.groups | index("Technology"))'
+regroup contacts list | jq '.[] | select(.groups | any(. == "Technology"))'
 ```
 
 Exit code 0 on success, no output. Non-zero on error, message to stderr.
